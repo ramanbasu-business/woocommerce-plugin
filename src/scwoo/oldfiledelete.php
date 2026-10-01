@@ -4,6 +4,7 @@
 clean_files();
 clean_logs();
 
+/** Delete XML and text logs; the current zero-day threshold makes every older match eligible. */
 function clean_logs()
 {
     $curr_path= dirname(__FILE__);
@@ -26,6 +27,7 @@ function clean_logs()
     }
 }
 
+/** Age-check the plugin log folder, then delete matching XML/text files from the process-relative log folder. */
 function clean_files()
 {
     $path = dirname(__FILE__) . '/log';

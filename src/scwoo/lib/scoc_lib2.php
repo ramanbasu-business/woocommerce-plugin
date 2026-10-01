@@ -140,6 +140,7 @@ final class scoc_lib
         }
     }
 
+    /** Dispatch a stored XML job by module and update its processing status. */
     public function importProducts($jobId, $verbose, $isDeleteTransient = 0)
     {
         $job_row = $this->getJob($jobId);
@@ -763,6 +764,7 @@ final class scoc_lib
         }
     }
 
+    /** Delete job rows submitted more than six days ago. */
     public function CleanData()
     {
         global $wpdb;
@@ -855,6 +857,7 @@ final class scoc_lib
     }
 
     // done
+    /** Persist an import payload and initial log state with the current multisite blog ID. */
     public function insertJob(
         $submittedon,
         $processedon,

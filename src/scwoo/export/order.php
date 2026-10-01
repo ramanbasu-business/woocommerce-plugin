@@ -34,6 +34,7 @@ class scoc_OrderExport extends scoc_BaseExport
     }
 
     // 5.0.0.0
+    /** Authenticate and serialize the requested WooCommerce orders as XML. */
     public function getOrders()
     {
         $this->scoc_lib->switchToBlog();

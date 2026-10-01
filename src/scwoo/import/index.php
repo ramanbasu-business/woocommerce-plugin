@@ -27,6 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') :
     process_import();
 endif;
 
+/** Read POST options and forward the request body to the job/import handler. */
 function process_import()
 {
     $queue = 0;
@@ -49,6 +50,7 @@ function process_import()
     _processPostedData($queue, $verbose, $xml, $isDeleteTransient);
 }
 
+/** Store the submitted XML as a job and process it inline unless queueing was requested. */
 function _processPostedData($queue, $verbose, $local_file_source, $isDeleteTransient = 0)
 {
     $globalHelper = new scoc_lib();

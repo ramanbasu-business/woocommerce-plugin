@@ -40,6 +40,7 @@ class scoc_encoder
         return false;
     }
 
+    /** Select a credential validation path and return request values only after authentication. */
     public function authenticate($enabled = true, $encryption = false)
     {
         global $wp_version, $woocommerce;
@@ -262,6 +263,7 @@ class scoc_encoder
         return $qryStrArray;
     }
 
+    /** Validate query-string keys, requiring HTTPS whenever either key is supplied. */
     public function validateByQuery($qryStrArray)
     {
         foreach ($GLOBALS as $key => $val) {

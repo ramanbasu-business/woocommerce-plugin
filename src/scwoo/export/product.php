@@ -17,6 +17,7 @@ require('../include.php');
 getProducts($verbose);
 //restore_current_blog();
 
+/** Export a paginated WooCommerce product feed, optionally filtered to one SKU. */
 function getProducts($verbose)
 {
     global $wp_version;
