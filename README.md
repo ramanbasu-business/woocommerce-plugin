@@ -1,6 +1,6 @@
 # woocommerce-plugin
 
-A legacy WordPress/WooCommerce plugin for synchronising catalog, inventory, and order data with an external integration-style integration layer.
+A legacy WordPress/WooCommerce plugin for synchronising catalog, inventory, and order data with an external integration layer.
 
 ## Objective
 

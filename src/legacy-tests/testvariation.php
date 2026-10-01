@@ -1,6 +1,6 @@
 <?php
 
-require('../include.php');
+require(__DIR__ . '/../scwoo/include.php');
 @ini_set('log_errors', 1);
 @ini_set('display_errors', 1); /* enable or disable public display of errors (use 'On' or 'Off') */
 @ini_set('error_log', dirname(__FILE__) . '/php-errors.log'); /* path to server-writable log file */

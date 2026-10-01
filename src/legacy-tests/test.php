@@ -1,6 +1,6 @@
 <?php
 
-require('../include.php');
+require(__DIR__ . '/../scwoo/include.php');
 @ini_set('log_errors', 1);
 @ini_set('display_errors', 1); /* enable or disable public display of errors (use 'On' or 'Off') */
 @ini_set('error_log', dirname(__FILE__) . '/php-errors.log'); /* path to server-writable log file */
@@ -32,10 +32,10 @@ function updateSingleVariation($product_id, $variation_data)
         // Creating the product variation
         $variation_id = wp_insert_post($variation_post);
     endif;
-    
+
     // Get an instance of the WC_Product_Variation object
     $variation = new WC_Product_Variation($variation_id);
-    
+
     // Iterating through the variations attributes
     foreach ($variation_data['attributes'] as $attribute => $term_name) {
         $taxonomy = 'pa_'.$attribute; // The attribute taxonomy
