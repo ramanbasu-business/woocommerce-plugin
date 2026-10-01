@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<order module="order_refund">
+    <orderid>45</orderid>
+    <post_id>707</post_id><!-- priority given to post_id -->
+    <order_key></order_key><!-- priority given to orderkey -->
+
+
+    <is_full_refund>0</is_full_refund>
+    <reason><![CDATA[My refund reason]]></reason>
+    <items>
+        <item>
+            <sku><![CDATA[woo-500-option2]]></sku>
+            <qty>1</qty>
+        </item>
+    </items>
+    <other_amount>0.0</other_amount>
+</order>

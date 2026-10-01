@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<products>
+  <product>
+    <sku><![CDATA[AIR-FIG]]></sku>
+    <name><![CDATA[Airedale]]></name>
+    <mpn><![CDATA[]]></mpn>
+    <upc><![CDATA[]]></upc>
+    <ean><![CDATA[]]></ean>
+    <short_description><![CDATA[Airedale]]></short_description>
+    <description>
+      <![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 20px; font-size: 16px; line-height: 28px; color: #747474; font-family: 'Open Sans';">These urns are constructed of solid <g class="gr_ gr_337 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-del replaceWithoutSep" id="337" data-gr-id="337">wood,</g> and are available in maple, oak, or walnut. The ash remains of your Airedale are inserted through a removable bottom of the <g class="gr_ gr_11 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-del replaceWithoutSep" id="11" data-gr-id="11">urn,</g> and then secured by screws &ndash; providing tamper resistant protection.</p>
+]]>
+    </description>
+    <product_type><![CDATA[variable]]></product_type>
+    <visibility><![CDATA[visible]]></visibility>
+    <regular_price>34.99</regular_price>
+    <msrp_price>34.99</msrp_price>
+    <featured>0</featured>
+    <downloadable>0</downloadable>
+    <virtual>0</virtual>
+    <tax_class><![CDATA[]]></tax_class>
+    <width>0</width>
+    <length>0</length>
+    <height>0</height>
+    <weight>0</weight>
+    <purchase_note><![CDATA[]]></purchase_note>
+    <backorders>0</backorders>
+    <tags><![CDATA[]]></tags>
+    <shipping_class_id>0</shipping_class_id>
+    <categories>
+      <categoryid>25</categoryid>
+      <categoryid>276</categoryid>
+    </categories>
+    <images>
+      
+    </images>
+    
+
+    <attributes>
+      <attribute>
+        <code>figurine-color</code>
+        <label>Figurine Color</label>
+        <is_variation>1</is_variation>
+        <value>Black and Tan|Bronze|Tan</value>
+      </attribute>
+      <attribute>
+        <code>pose</code>
+        <label>Pose</label>
+        <is_variation>1</is_variation>
+        <value>Sitting</value>
+      </attribute>
+    </attributes>
+
+
+    <variants>
+      <variant>
+        <option attribute="figurine-color" value="Black and Tan"></option>
+        <option attribute="pose" value="Sitting"></option>
+        <sku><![CDATA[sku-sitting-blackntan]]></sku>
+        <regular_price>34.99</regular_price>
+        <stock_qty>10</stock_qty>
+        <stock>10</stock>
+        <manage_stock>1</manage_stock>
+        <width>1</width>
+        <length>1</length>
+        <height>1</height>
+        <weight>1</weight>
+        <image type="matrix"><![CDATA[]]></image>
+      </variant>
+      
+      <variant>
+        <option attribute="figurine-color" value="Bronze"></option>
+        <option attribute="pose" value="Sitting"></option>
+        <sku><![CDATA[sku-bronze-sitting]]></sku>
+        <regular_price>34.99</regular_price>
+        <stock_qty>10</stock_qty>
+        <stock>10</stock>
+        <manage_stock>1</manage_stock>
+        <width>2</width>
+        <length>2</length>
+        <height>2</height>
+        <weight>2</weight>
+        <image type="matrix"><![CDATA[https://dh.cwa.sellercloud.com/images/products/1677440.png]]></image>
+      </variant>
+
+      <variant>
+        <option attribute="figurine-color" value="Tan"></option>
+        <option attribute="pose" value="Sitting"></option>
+        <sku><![CDATA[sku-tan-sitting]]></sku>
+        <regular_price>34.99</regular_price>
+        <stock_qty>0</stock_qty>
+        <stock>0</stock>
+        <manage_stock>1</manage_stock>
+        <width>3</width>
+        <length>3</length>
+        <height>3</height>
+        <weight>3</weight>
+        <image type="matrix"><![CDATA[https://dh.cwa.sellercloud.com/images/products/1677440.png]]></image>
+      </variant>
+    </variants>
+    <manage_stock>1</manage_stock>
+    <stock>0</stock>
+    <stock_status>outofstock</stock_status>
+    <sold_individually>0</sold_individually>
+    <tabs>
+    </tabs>
+  </product>
+
+</products>

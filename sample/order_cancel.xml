@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<order module="order_cancel">
+    <orderid>OD1</orderid>
+    
+    <!--<post_id>263</post_id>--> <!-- priority given to post_id -->
+    <!--<order_key>wc_order_5ad6d3849884d</order_key>--> <!-- priority given to orderkey -->
+    <!--<orderkey>wc_order_5a7dcf813e9ec</orderkey>--> <!-- priority given to orderkey -->
+</order>

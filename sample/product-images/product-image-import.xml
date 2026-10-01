@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="images">
+    <product>
+	<sku>KC7206-02D</sku>	
+	<images>
+	    <image type="featured"><![CDATA[
+	    	https://ae01.alicdn.com/kf/HTB1Z1RczgmTBuNjy1Xbq6yMrVXa2/Oulm-Unique-Design-Japan-Quartz-Movement-Watch-Male-Two-Time-Zone-Big-Watches-Men-Luxury-Brand.jpg
+	    ]]></image>
+	    <image>http://www.localhost.com/blue.jpg</image>
+	    <image><![CDATA[
+	    	https://th.bing.com/th/id/R.51105099f8317cdff5b7e794cd65cbc1?rik=yVzVF%2fO0ppIeeA&pid=ImgRaw&r=0
+	    	]]></image>
+	    <image>https://pbs.twimg.com/media/CAqkQukUUAAV8CX.jpg</image>
+        <image><![CDATA[
+        	https://i.ebayimg.com/images/g/XAUAAOSwBDRgPBur/s-l500.jpg]]></image>
+	</images>
+        
+    </product>
+
+    <product>
+	<sku>AA010</sku>	
+	<images>
+	    <image type="featured">https://i.ytimg.com/vi/ETsekJKsr3M/maxresdefault.jpg</image>
+	    <image>http://www.localhost.com/blue.jpg</image>
+	    <!--<image>https://pbs.twimg.com/media/CAqkQukUUAAV8CX.jpg</image>-->
+        <image>http://www.localhost.com/red.jpg</image>
+	</images>
+        
+    </product>
+    
+    <product>
+	<sku>TEST001M</sku>
+	<parent_sku></parent_sku>
+	<images>
+       <image type="featured">http://www.localhost.com/shoe.jpg</image>
+       <image>http://www.localhost.com/blue.jpg</image>
+	</images>	
+        
+    </product>
+
+    <product>
+		<sku>woo-500-option1</sku>
+		<parent_sku>WOO-500-variable</parent_sku>
+		<images>
+	       <image>http://www.localhost.com/red.jpg</image>
+		</images>	
+    </product>
+
+	<product>
+		<sku>sku-tan-sitting</sku>
+		<parent_sku>AIR-FIG</parent_sku>
+		<images>
+	       <image>http://www.localhost.com/red.jpg</image>
+		</images>	
+	</product>
+
+	<product>
+		<sku>sku-sitting-blackntan</sku>
+		<parent_sku>AIR-FIG</parent_sku>
+		<images>
+	       <image></image>
+		</images>	
+	</product>
+</products>

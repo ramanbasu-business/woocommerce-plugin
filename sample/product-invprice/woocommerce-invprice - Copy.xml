@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<products module="invprice">
+    <product>
+        <sku>WOO1</sku>
+        <!--<parent_sku>WOO1-MASTER</parent_sku>-->
+        <qty>100</qty>
+        <price>11.5</price>
+    </product>
+    
+</products>

@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<products>
+  <product>
+    <sku><![CDATA[17W1424]]></sku>
+    <name><![CDATA[Buyless Fashion Boys Pants Flat Front Straight Cut Wide Corduroy Pattern]]></name>
+    <brand><![CDATA[Buyless Fashion]]></brand>
+    <mpn><![CDATA[17W1424]]></mpn>
+    <upc><![CDATA[]]></upc>
+    <ean><![CDATA[]]></ean>
+    <short_description>Buyless Fashion Boys Pants Flat Front Straight Cut Wide Cordur</short_description>
+    <description><![CDATA[This Buyless Fashion Boys Pants Flat Front Straight Cut Wide Corduroy Pattern is 100% cotton, <br>straight cut corduroy pants feature 4 pockets, loop holes for belt, adjustable waist and a <br>flat front zip fly with a button look/hook front closure for an all-around comfortable fit.]]></description>
+      <product_type><![CDATA[variable]]></product_type>
+      <visibility><![CDATA[visible]]></visibility>
+      <regular_price>19.97</regular_price>
+      <msrp_price>25.99</msrp_price>
+      <featured>0</featured><downloadable>0</downloadable><virtual>0</virtual><tax_class><![CDATA[]]></tax_class><width>8</width>
+      <length>10</length>
+      <height>10</height>
+      <weight>0.625</weight>
+      <purchase_note><![CDATA[]]></purchase_note><backorders>no</backorders><tags><![CDATA[]]></tags>
+      <shipping_class_id>0</shipping_class_id><categories>
+      </categories>
+      <images>
+        <image type="featured">http://www.localhost.com/sample1.jpg</image>
+        <image>http://www.localhost.com/sample2.jpg</image>
+      </images>
+      <attributes>
+        <attribute>
+          <code>color</code>
+          <label><![CDATA[Color]]></label>
+          <is_variation>1</is_variation>
+          <value><![CDATA[Black|Dark-Gray|Navy]]></value>
+        </attribute>
+        <attribute>
+          <code>size</code>
+          <label><![CDATA[Size]]></label>
+          <is_variation>1</is_variation>
+          <value><![CDATA[10|12|14|16|18|18m|2|20|24m|3|4|5|6|7|8]]></value>
+        </attribute>
+      </attributes>
+      
+      <variants>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="10"></option>
+          <sku><![CDATA[17W1424-BLK-10]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>18</stock_qty>
+          <stock>18</stock>
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="12"></option>
+          <sku><![CDATA[17W1424-BLK-12]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>12</stock_qty>
+          <stock>12</stock>
+          
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="14"></option>
+          <sku><![CDATA[17W1424-BLK-14]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>17</stock_qty>
+          <stock>17</stock>
+          
+        </variant>
+        
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="16"></option>
+          <sku><![CDATA[17W1424-BLK-16]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>29</stock_qty>
+          <stock>29</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="18"></option>
+          <sku><![CDATA[17W1424-BLK-18]]></sku>
+          <regular_price>19.97</regular_price>
+          <stock_qty>3</stock_qty>
+          <stock>3</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="18m"></option>
+          <sku><![CDATA[17W1424-BLK-18M]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>6</stock_qty>
+          <stock>6</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="2"></option>
+          <sku><![CDATA[17W1424-BLK-2]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>138</stock_qty>
+          <stock>138</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="20"></option>
+          <sku><![CDATA[17W1424-BLK-20]]></sku>
+          <regular_price>19.97</regular_price>
+          <stock_qty>2</stock_qty>
+          <stock>2</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="24m"></option>
+          <sku><![CDATA[17W1424-BLK-24M]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>14</stock_qty>
+          <stock>14</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="3"></option>
+          <sku><![CDATA[17W1424-BLK-3]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>88</stock_qty>
+          <stock>88</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="4"></option>
+          <sku><![CDATA[17W1424-BLK-4]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="5"></option>
+          <sku><![CDATA[17W1424-BLK-5]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>8</stock_qty>
+          <stock>8</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="6"></option>
+          <sku><![CDATA[17W1424-BLK-6]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>78</stock_qty>
+          <stock>78</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="7"></option>
+          <sku><![CDATA[17W1424-BLK-7]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>59</stock_qty>
+          <stock>59</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Black"></option>
+          <option attribute="size" value="8"></option>
+          <sku><![CDATA[17W1424-BLK-8]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>65</stock_qty>
+          <stock>65</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="10"></option>
+          <sku><![CDATA[17W1424-DGR-10]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>20</stock_qty>
+          <stock>20</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="12"></option>
+          <sku><![CDATA[17W1424-DGR-12]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>4</stock_qty>
+          <stock>4</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="14"></option>
+          <sku><![CDATA[17W1424-DGR-14]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>4</stock_qty>
+          <stock>4</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="16"></option>
+          <sku><![CDATA[17W1424-DGR-16]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="18"></option>
+          <sku><![CDATA[17W1424-DGR-18]]></sku>
+          <regular_price>19.97</regular_price>
+          <stock_qty>3</stock_qty>
+          <stock>3</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="18m"></option>
+          <sku><![CDATA[17W1424-DGR-18M]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>4</stock_qty>
+          <stock>4</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="2"></option>
+          <sku><![CDATA[17W1424-DGR-2]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>12</stock_qty>
+          <stock>12</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="20"></option>
+          <sku><![CDATA[17W1424-DGR-20]]></sku>
+          <regular_price>19.97</regular_price>
+          <stock_qty>3</stock_qty>
+          <stock>3</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="24m"></option>
+          <sku><![CDATA[17W1424-DGR-24M]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>16</stock_qty>
+          <stock>16</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="3"></option>
+          <sku><![CDATA[17W1424-DGR-3]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>19</stock_qty>
+          <stock>19</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="4"></option>
+          <sku><![CDATA[17W1424-DGR-4]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>16</stock_qty>
+          <stock>16</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="5"></option>
+          <sku><![CDATA[17W1424-DGR-5]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>19</stock_qty>
+          <stock>19</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="6"></option>
+          <sku><![CDATA[17W1424-DGR-6]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="7"></option>
+          <sku><![CDATA[17W1424-DGR-7]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>7</stock_qty>
+          <stock>7</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Dark-Gray"></option>
+          <option attribute="size" value="8"></option>
+          <sku><![CDATA[17W1424-DGR-8]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>11</stock_qty>
+          <stock>11</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="10"></option>
+          <sku><![CDATA[17W1424-NVY-10]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="12"></option>
+          <sku><![CDATA[17W1424-NVY-12]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>6</stock_qty>
+          <stock>6</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="14"></option>
+          <sku><![CDATA[17W1424-NVY-14]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="16"></option>
+          <sku><![CDATA[17W1424-NVY-16]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>11</stock_qty>
+          <stock>11</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="18"></option>
+          <sku><![CDATA[17W1424-NVY-18]]></sku>
+          <regular_price>19.97</regular_price>
+          <stock_qty>3</stock_qty>
+          <stock>3</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="18m"></option>
+          <sku><![CDATA[17W1424-NVY-18M]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>7</stock_qty>
+          <stock>7</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="2"></option>
+          <sku><![CDATA[17W1424-NVY-2]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>12</stock_qty>
+          <stock>12</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="20"></option>
+          <sku><![CDATA[17W1424-NVY-20]]></sku>
+          <regular_price>19.97</regular_price>
+          <stock_qty>3</stock_qty>
+          <stock>3</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="24m"></option>
+          <sku><![CDATA[17W1424-NVY-24M]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>26</stock_qty>
+          <stock>26</stock>
+        </variant>
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="3"></option>
+          <sku><![CDATA[17W1424-NVY-3]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>3</stock_qty>
+          <stock>3</stock>
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="4"></option>
+          <sku><![CDATA[17W1424-NVY-4]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="5"></option>
+          <sku><![CDATA[17W1424-NVY-5]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>14</stock_qty>
+          <stock>14</stock>
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="6"></option>
+          <sku><![CDATA[17W1424-NVY-6]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>10</stock_qty>
+          <stock>10</stock>
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="7"></option>
+          <sku><![CDATA[17W1424-NVY-7]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+          <image>http://www.localhost.com/yellow.jpg</image>
+        </variant>
+
+        <variant>
+          <option attribute="color" value="Navy"></option>
+          <option attribute="size" value="8"></option>
+          <sku><![CDATA[17W1424-NVY-8]]></sku>
+          <regular_price>18.58</regular_price>
+          <stock_qty>0</stock_qty>
+          <stock>0</stock>
+          <image>http://www.localhost.com/navy.jpg</image>
+        </variant>
+
+      </variants>
+
+      <manage_stock>1</manage_stock><stock>0</stock>
+      <stock_status>outofstock</stock_status><sold_individually>0</sold_individually><tabs>
+      </tabs>
+      <custom_columns>
+
+      </custom_columns>
+    </product>
+
+</products>

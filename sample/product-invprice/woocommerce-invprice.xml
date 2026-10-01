@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<products module="invprice">
+    <product>
+        <sku>TEST001M</sku>
+        <qty>5</qty>
+        <price>100.00</price>
+    </product>
+    <product>
+        <sku>TEST002M</sku>
+        <qty>10</qty>
+        <price>10.00</price>
+    </product>
+    <product>
+        <sku>TEST003M</sku>
+        <qty>10</qty>
+        <price>10.00</price>
+    </product>
+    <product>
+        <sku>TEST004M</sku>
+        <qty>10</qty>
+        <price>10.00</price>
+    </product>
+</products>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<products module="invprice">
+  <product>
+    <sku>var1</sku>
+    <price>20.00</price>
+    <msrp_price>20.00</msrp_price>
+    <sale_price>19.00</sale_price>
+    <sale_price_dates_from>2018-11-05</sale_price_dates_from>
+    <sale_price_dates_to>2018-11-08</sale_price_dates_to>
+  </product>
+
+  <product>
+	<sku>var1_green</sku>
+	<parent_sku>var1</parent_sku>
+	<qty>100</qty>
+	<price>25.00</price>
+	<sale_price>24.00</sale_price>
+    <sale_price_dates_from>2021-04-15</sale_price_dates_from>
+    <sale_price_dates_to>2021-04-25</sale_price_dates_to>
+	</product>
+</products>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versions>
+  <version>
+    <number>1.2</number>
+    <date>2015-04-20 09:35:15 </date>
+    <description>
+      <![CDATA[1.0 =>	Initial version for sellercloud - woocommerce plugin
+1.1 =>	Implemented shipping/tracking import
+1.2 =>     Fixed order item XML encoding]]>
+    </description>
+  </version>
+  <version>
+    <number>1.3</number>
+    <date>2015-06-24 13:39:42 </date>
+    <description>
+      <![CDATA[Added support for matrix children inventory/price update when parent is sent.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4</number>
+    <date>2016-01-28 02:52:13 </date>
+    <description>
+      <![CDATA[order status and status note can be set for tracking upload.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.1</number>
+    <date>2016-03-08 02:06:19 </date>
+    <description>
+      <![CDATA[Replaced deprecated property of order shipping_method.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.2</number>
+    <date>2016-05-10 11:01:27 </date>
+    <description>
+      <![CDATA[feature enhancement. scwoo/export/auth.php file added to check authentication.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.3</number>
+    <date>2016-06-14 04:01:29 </date>
+    <description>
+      <![CDATA[Implemented "order download" and "order cancel export" module. From now on, there is no need to store xml files in log folder. job table will hold the xml and log data.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.4</number>
+    <date>2016-08-26 09:53:03 </date>
+    <description>
+      <![CDATA[Recalculation of stock for matrix parent in the event of inv-price update.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.5</number>
+    <date>2016-10-13 09:52:53 </date>
+    <description>
+      <![CDATA[Allows all types of order download. No need to specify processing and onhold status.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.6</number>
+    <date>2016-11-21 09:59:54 </date>
+    <description>
+      <![CDATA[Added customer_note to order export. Fixed issue: cancel order when post_id and order number are the same and sequential order number pro is not enabled.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.7</number>
+    <date>2016-12-14 02:27:07 </date>
+    <description>
+      <![CDATA[Order comment from customer and admin need to be retrieved from two different places. I fixed and uploaded code.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.8</number>
+    <date>2017-03-24 08:52:53 </date>
+    <description>
+      <![CDATA[Added msrp_price to product and invprice export.]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.9</number>
+    <date>2017-05-03 10:03:15 </date>
+    <description>
+      <![CDATA[Added CSV export feature]]>
+    </description>
+  </version>
+  <version>
+    <number>1.4.10</number>
+    <date>2017-06-06 05:58:07 </date>
+    <description>
+      <![CDATA[Removed xml declaration from inner methods. Used it at the top of calling pages. Issue fix: InvPrice module - price was updated even when price was not sent]]>
+    </description>
+  </version>
+
+  <version>
+    <number>1.5.0</number>
+    <date>2017-10-17 12:00:00 </date>
+    <description>
+      <![CDATA[Added partial product import for descriptions, titles, images and categories]]>
+    </description>
+  </version>
+</versions>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+    <product>
+	<sku>WOO-500-simple</sku>
+	<product_type>simple</product_type><!-- for variable, grouped: prices becomes NULL -->
+	<name>WOO-500-simple Test Product</name>
+	<visibility>visible</visibility><!-- visible,catalog,search,hidden -->
+    <!--<brand>Alesis</brand>-->
+        <!--<price>5.00</price>-->
+    <mpn><![CDATA[WOO-500-simple]]></mpn>
+	<upc><![CDATA[9999999999]]></upc>
+	<ean><![CDATA[0000000000]]></ean>
+
+	<regular_price>55.00</regular_price>
+	<sale_price>44.00</sale_price>
+	<sale_price_dates_from>2019-01-01</sale_price_dates_from>
+	<sale_price_dates_to>2020-01-31</sale_price_dates_to>
+	
+	<featured>0</featured>
+	<downloadable>0</downloadable>
+	<virtual>0</virtual>
+	<tax_status>taxable</tax_status> <!-- taxable , shipping , none  -->
+	<tax_class>zero-rate</tax_class> <!-- '', reduced-rate, zero-rate -->
+	<weight>32.16</weight>
+	<length>5</length>
+	<width>5</width>
+	<height>5</height>
+	<purchase_note>Some purchase_note</purchase_note>
+	
+	<backorders>yes</backorders>
+	<manage_stock>1</manage_stock>
+	<stock>199</stock>
+	<stock_status>instock</stock_status><!-- instock, outofstock -->
+	<thumbnail></thumbnail>
+	<description><![CDATA[WOO-500-simple Full description]]></description>
+	<short_description><![CDATA[WOO-500-simple short desc]]></short_description>
+	<sold_individually>1</sold_individually>	
+	<shipping_class_id>0</shipping_class_id>
+	
+	<categories>
+	    <categoryid>15</categoryid>
+	    <categoryid>23</categoryid>
+	</categories>
+
+	<images>
+	    <image type="featured">http://www.localhost.com/images/black.jpg</image>
+	    <image>http://www.localhost.com/images/red.jpg</image>
+	    <image>http://www.localhost.com/images/blue.jpg</image>
+	    <image>http://www.localhost.com/images/yellow.jpg</image>
+	</images>
+	
+	<tags>male, pants, t-shirts, dresses</tags>
+
+    </product>
+</products>

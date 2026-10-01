@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+    <product>
+	<sku>WOO1</sku>
+	<product_type>simple</product_type><!-- for variable, grouped: prices becomes NULL -->
+	<name>Woo1 Test Product</name>
+	<visibility>visible</visibility><!-- visible,catalog,search,hidden -->
+        <brand>Alesis</brand>
+        <!--<price>5.00</price>-->
+    <mpn><![CDATA[CRANE]]></mpn>
+	<upc><![CDATA[191493000087]]></upc>
+	<ean><![CDATA[6970194084428]]></ean>
+
+	<regular_price>50.00</regular_price>
+	<sale_price>40.00</sale_price>
+	<sale_price_dates_from>2014-01-01</sale_price_dates_from>
+	<sale_price_dates_to>2014-01-31</sale_price_dates_to>
+	
+	<featured>0</featured>
+	<downloadable>0</downloadable>
+	<virtual>0</virtual>
+	<tax_status>taxable</tax_status> <!-- taxable , shipping , none  -->
+	<tax_class>zero-rate</tax_class> <!-- '', reduced-rate, zero-rate -->
+	<weight>32.16</weight>
+	<length>5</length>
+	<width>5</width>
+	<height>5</height>
+	<purchase_note>Some purchase_note</purchase_note>
+	
+	<backorders>1</backorders>
+	<manage_stock>1</manage_stock>
+	<stock>100</stock>
+	<stock_status>instock</stock_status><!-- instock, outofstock -->
+	<thumbnail></thumbnail>
+	<description><![CDATA[Full description]]></description>
+	<short_description><![CDATA[short desc]]></short_description>
+	<sold_individually>1</sold_individually>	
+	<shipping_class_id>0</shipping_class_id>
+	<!--
+	<images>
+	    <<image type="featured">http://3.bp.blogspot.com/_NeTpqH7IRW8/TS3OEaOPQ3I/AAAAAAAACj0/ZrnvvGvnEv8/s640/greylabel1.jpg</image>
+	    <image>http://eastekinternational.com/assets/images/callout-consumer-dog.jpg</image>
+	    <image>http://www.dhresource.com/albu_301836368_00-1.0x0/new-products-2013-men-fashion-wrap-watch.jpg</image>
+	    
+	</images>
+	-->
+	<attributes>
+	    <attribute>
+		<code>taxoattr2</code>
+		<value>500.00</value>
+	    </attribute>
+	    <!-- SELECT type attribute values  -->
+	    <attribute>
+		<code>taxoattr1</code>
+		<value>Hop|Techno|Folk</value> 
+	    </attribute>
+	</attributes>
+	<categories>
+	    <categoryid>8</categoryid>
+	</categories>
+        
+        <additional_info>
+            <plugin>advanced custom fields</plugin>
+            <target_field>additional_info</target_field>
+            <value>When editing a post in the wp admin, the reference is automatically added. It is then used by many of the API functions to correctly format the value.</value>
+        </additional_info>
+        
+    </product>
+    
+</products>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+  <product>
+    <sku><![CDATA[TEST001M]]></sku>
+    <name><![CDATA[Test001 product]]></name>
+    <mpn><![CDATA[]]></mpn>
+    <upc><![CDATA[]]></upc>
+    <ean><![CDATA[]]></ean>
+    <short_description><![CDATA[]]></short_description>
+    <description><![CDATA[]]></description>
+    <product_type><![CDATA[simple]]></product_type>
+    <visibility><![CDATA[visible]]></visibility>
+    <regular_price>100.00</regular_price>
+    <sale_price>99</sale_price>
+    <sale_price_dates_from>2017-06-06</sale_price_dates_from>
+    <sale_price_dates_to>2017-10-06</sale_price_dates_to>
+    <msrp_price>101.99</msrp_price>
+    <featured>0</featured>
+    <downloadable>0</downloadable>
+    <virtual>0</virtual>
+    <tax_class><![CDATA[]]></tax_class>
+    <width>0</width>
+    <length>0</length>
+    <height>0</height>
+    <weight>0</weight>
+    <purchase_note><![CDATA[]]></purchase_note>
+    <backorders>0</backorders>
+    <tags><![CDATA[]]></tags>
+    <shipping_class_id>0</shipping_class_id>
+    <categories>
+    </categories>
+    <images>
+    </images>
+    <attributes>
+    </attributes>
+    <manage_stock>1</manage_stock>
+    <stock>95</stock>
+    <stock_status>instock</stock_status>
+    <sold_individually>0</sold_individually>
+    <tabs>
+    </tabs>
+    <custom_columns>
+
+      <custom_column>
+        <plugin>product-condition-for-woocommerce</plugin>
+        <target_field>product_condition_custom_condition</target_field>
+        <value><![CDATA[brand-new]]></value>
+      </custom_column>
+
+      <custom_column>
+        <plugin>advanced custom fields</plugin>
+        <target_field>acf_field_group_field2_dropdown</target_field>
+        <value><![CDATA[Option 1]]></value>
+      </custom_column>
+      
+      <custom_column>
+        <plugin>advanced custom fields</plugin>
+        <target_field>acf_field_numeric</target_field>
+        <value><![CDATA[111111123.45]]></value>
+      </custom_column>
+      
+      <custom_column>
+        <plugin>advanced custom fields</plugin>
+        <target_field>acf_product_options</target_field>
+        <value><![CDATA[acf_product_options 99999923.45]]></value>
+      </custom_column>
+
+      <custom_column>
+        <plugin>woocommerce product attribute taxonomy</plugin>
+        <target_field>pa_color</target_field>
+        <value><![CDATA[green]]></value>
+      </custom_column>
+      
+      <custom_column>
+        <plugin>woocommerce product attribute taxonomy</plugin>
+        <target_field>pa_size</target_field>
+        <value><![CDATA[small]]></value>
+      </custom_column>
+
+<custom_column>
+        <plugin>advanced custom fields</plugin>
+        <target_field>acf_related_products_with_other_conditions</target_field>
+        <value><![CDATA[22,32]]></value>
+      </custom_column>
+    </custom_columns>
+  </product>
+
+
+</products>

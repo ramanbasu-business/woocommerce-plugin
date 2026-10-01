@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<products module="invprice">
+    <product>
+        <sku>WOO-500-simple</sku>
+        <qty>111</qty>
+        <price>11.00</price>
+    </product>
+    <product>
+        <sku>VARIABLE1_BLUE_LARGE</sku>
+        <parent_sku>VARIABLE1</parent_sku>
+        <qty>150</qty>
+        <price>101.95</price>
+    </product>
+
+	<product>
+        <sku>var1_4</sku>
+        <parent_sku>var1</parent_sku>
+        <qty>0</qty>
+        <price>10.10</price>
+    </product>
+</products>

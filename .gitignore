@@ -1,0 +1,6 @@
+# Local machine-only files
+CLAUDE.md
+.claude/
+
+# macOS metadata
+.DS_Store

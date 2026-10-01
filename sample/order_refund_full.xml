@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<order module="order_refund">
+    <orderid>43</orderid>
+    <post_id></post_id><!-- priority given to post_id -->
+    <order_key></order_key><!-- priority given to orderkey -->
+
+    <is_full_refund>1</is_full_refund>
+    <reason><![CDATA[My refund reason 38]]></reason>
+</order>

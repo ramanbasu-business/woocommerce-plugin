@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<products>
+<product>
+<sku><![CDATA[TW14-GW]]></sku>
+<name><![CDATA[Buyless Fashion Girls Cami Undershirts Cotton Tank With Trim and Strap (4 Pack)]]></name>
+<brand><![CDATA[Buyless Fashion]]></brand>
+<mpn><![CDATA[TW14-GW]]></mpn>
+<upc><![CDATA[]]></upc>
+<ean><![CDATA[]]></ean>
+<short_description><![CDATA[test purpose<br><br>]]></short_description>
+<description><![CDATA[<b>Buyless Fashion</b> offers this adorable 4 pack Girls' scoop neck camisole that is the <br>utmost in comfortability and softness. It delivers the ultra-best in underwear for <br>everyday use. It was designed with so many features to deliver the ultimate in <br>comfortability. It features double-ply seams for added strength and plentiful room <br>for a comfortable and airy fit. <br><br> <b>Each pack includes:</b> 4 of these great quality undershirts Color: Solid white <br>with assorted color trim and an added bow in the front to complete a girlie look <br> <b>Size:</b> These undershirts are available in sizes ranging from 1 to 14. Please <br>refer to size chart for best fit. <br> <b>Care:</b> Machine wash warm with Non-chlorine bleach, tumble dry low<br><br><br> <b>Features</b><br><br> <li>100% COTTON - made from soft absorbent fibers of cotton for the softest touch <br>possible. </li><br> <li>4 UNDERSHIRTS PER PACK - in solid white with added colored bow to complete a sweet and <br>feminine touch. Strong seams for strength and durability. </li><br> <li>FINE RIBBING - adds just enough stretch for flexible, free-moving ease</li><br> <li>AVAILABLE IN SIZES 1-14 - please refer to size chart for best fit</li><br> <li>DOUBLE PLY SEAMS - for extra strength and durability</li><br> <li>TAGLESS UNDERSHIRTS - for a comfy and long lasting fit</li>]]></description>
+<product_type><![CDATA[variable]]></product_type>
+<visibility><![CDATA[visible]]></visibility>
+<regular_price>17.47</regular_price>
+<msrp_price>19.9</msrp_price>
+<featured>0</featured><downloadable>0</downloadable><virtual>0</virtual><tax_class><![CDATA[]]></tax_class><width>9</width>
+<length>11</length>
+<height>4</height>
+<weight>0.625</weight>
+<purchase_note><![CDATA[]]></purchase_note><backorders>no</backorders><tags><![CDATA[]]></tags>
+<shipping_class_id>0</shipping_class_id><categories>
+<categoryid>220</categoryid>
+</categories>
+<images>
+<image type="featured">https://hh.cwa.sellercloud.com/images/products/4529810.jpg</image>
+<image>https://hh.cwa.sellercloud.com/images/products/4531105.jpg</image>
+<image>https://hh.cwa.sellercloud.com/images/products/4532041.jpg</image>
+<image>https://hh.cwa.sellercloud.com/images/products/4532932.jpg</image>
+<image>https://hh.cwa.sellercloud.com/images/products/4533805.jpg</image>
+<image>https://hh.cwa.sellercloud.com/images/products/4534677.jpg</image>
+<image>https://hh.cwa.sellercloud.com/images/products/4535541.jpg</image>
+</images>
+<attributes>
+<attribute>
+<code>color</code>
+<label><![CDATA[Color]]></label>
+<is_variation>1</is_variation>
+<value><![CDATA[Multi Color Cami|Multi Color Tank|White|White Cami]]></value>
+</attribute>
+<attribute>
+<code>size</code>
+<label><![CDATA[Size]]></label>
+<is_variation>1</is_variation>
+<value><![CDATA[11-12|1-2|13-14|2-3|3-4|4-5|5-6|6-7|7-8|9-10]]></value>
+</attribute>
+</attributes>
+<variants>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="11-12"></option>
+<sku><![CDATA[TW14-GA-11-12]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437057.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="1-2"></option>
+<sku><![CDATA[TW14-GA-1-2]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>33</stock_qty>
+<stock>33</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437058.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="13-14"></option>
+<sku><![CDATA[TW14-GA-13-14]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437059.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="2-3"></option>
+<sku><![CDATA[TW14-GA-2-3]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>68</stock_qty>
+<stock>68</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437060.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="3-4"></option>
+<sku><![CDATA[TW14-GA-3-4]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>7</stock_qty>
+<stock>7</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437061.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="4-5"></option>
+<sku><![CDATA[TW14-GA-4-5]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>26</stock_qty>
+<stock>26</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437062.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="5-6"></option>
+<sku><![CDATA[TW14-GA-5-6]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437063.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="6-7"></option>
+<sku><![CDATA[TW14-GA-6-7]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>25</stock_qty>
+<stock>25</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437064.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="7-8"></option>
+<sku><![CDATA[TW14-GA-7-8]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437065.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Tank"></option>
+<option attribute="size" value="9-10"></option>
+<sku><![CDATA[TW14-GA-9-10]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>10</stock_qty>
+<stock>10</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437066.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="11-12"></option>
+<sku><![CDATA[TW14-GAST-11-12]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437067.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="1-2"></option>
+<sku><![CDATA[TW14-GAST-1-2]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>16</stock_qty>
+<stock>16</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437068.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="13-14"></option>
+<sku><![CDATA[TW14-GAST-13-14]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437069.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="2-3"></option>
+<sku><![CDATA[TW14-GAST-2-3]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>224</stock_qty>
+<stock>224</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437070.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="3-4"></option>
+<sku><![CDATA[TW14-GAST-3-4]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>90</stock_qty>
+<stock>90</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437071.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="4-5"></option>
+<sku><![CDATA[TW14-GAST-4-5]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>155</stock_qty>
+<stock>155</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437072.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="5-6"></option>
+<sku><![CDATA[TW14-GAST-5-6]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>6</stock_qty>
+<stock>6</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437073.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="6-7"></option>
+<sku><![CDATA[TW14-GAST-6-7]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>53</stock_qty>
+<stock>53</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437074.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="7-8"></option>
+<sku><![CDATA[TW14-GAST-7-8]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>33</stock_qty>
+<stock>33</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437075.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="Multi Color Cami"></option>
+<option attribute="size" value="9-10"></option>
+<sku><![CDATA[TW14-GAST-9-10]]></sku>
+<regular_price>23.98</regular_price>
+<stock_qty>39</stock_qty>
+<stock>39</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437076.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="11-12"></option>
+<sku><![CDATA[TW14-GW-11-12]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>45</stock_qty>
+<stock>45</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437078.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="1-2"></option>
+<sku><![CDATA[TW14-GW-1-2]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>61</stock_qty>
+<stock>61</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437079.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="13-14"></option>
+<sku><![CDATA[TW14-GW-13-14]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>26</stock_qty>
+<stock>26</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437080.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="2-3"></option>
+<sku><![CDATA[TW14-GW-2-3]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>246</stock_qty>
+<stock>246</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437081.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="3-4"></option>
+<sku><![CDATA[TW14-GW-3-4]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>1146</stock_qty>
+<stock>1146</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437082.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="4-5"></option>
+<sku><![CDATA[TW14-GW-4-5]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>993</stock_qty>
+<stock>993</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437083.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="5-6"></option>
+<sku><![CDATA[TW14-GW-5-6]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>998</stock_qty>
+<stock>998</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437084.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="6-7"></option>
+<sku><![CDATA[TW14-GW-6-7]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>591</stock_qty>
+<stock>591</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437085.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="7-8"></option>
+<sku><![CDATA[TW14-GW-7-8]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>435</stock_qty>
+<stock>435</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437086.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White"></option>
+<option attribute="size" value="9-10"></option>
+<sku><![CDATA[TW14-GW-9-10]]></sku>
+<regular_price>18.48</regular_price>
+<stock_qty>36</stock_qty>
+<stock>36</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437087.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="11-12"></option>
+<sku><![CDATA[TW14-GWST-11-12]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>41</stock_qty>
+<stock>41</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437088.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="1-2"></option>
+<sku><![CDATA[TW14-GWST-1-2]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>96</stock_qty>
+<stock>96</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437089.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="13-14"></option>
+<sku><![CDATA[TW14-GWST-13-14]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>0</stock_qty>
+<stock>0</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437090.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="2-3"></option>
+<sku><![CDATA[TW14-GWST-2-3]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>77</stock_qty>
+<stock>77</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437091.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="3-4"></option>
+<sku><![CDATA[TW14-GWST-3-4]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>48</stock_qty>
+<stock>48</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437092.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="4-5"></option>
+<sku><![CDATA[TW14-GWST-4-5]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>101</stock_qty>
+<stock>101</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437093.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="5-6"></option>
+<sku><![CDATA[TW14-GWST-5-6]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>226</stock_qty>
+<stock>226</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437094.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="6-7"></option>
+<sku><![CDATA[TW14-GWST-6-7]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>48</stock_qty>
+<stock>48</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437095.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="7-8"></option>
+<sku><![CDATA[TW14-GWST-7-8]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>42</stock_qty>
+<stock>42</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437096.jpg]]></image>
+</variant>
+<variant>
+<option attribute="color" value="White Cami"></option>
+<option attribute="size" value="9-10"></option>
+<sku><![CDATA[TW14-GWST-9-10]]></sku>
+<regular_price>16.98</regular_price>
+<stock_qty>56</stock_qty>
+<stock>56</stock>
+<image type="standard"><![CDATA[https://hh.cwa.sellercloud.com/images/products/4437097.jpg]]></image>
+</variant>
+</variants>
+<manage_stock>1</manage_stock><stock>0</stock>
+<stock_status>outofstock</stock_status><sold_individually>0</sold_individually><tabs>
+</tabs>
+<custom_columns>
+
+</custom_columns>
+</product>
+
+</products>

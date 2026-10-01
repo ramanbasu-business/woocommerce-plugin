@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="categories">
+    <product>
+	<sku>TEST001M</sku>
+	
+	<categories>
+	    <categoryid>111</categoryid>
+	    <categoryid>26</categoryid>
+	</categories>
+                
+    </product>
+    
+</products>

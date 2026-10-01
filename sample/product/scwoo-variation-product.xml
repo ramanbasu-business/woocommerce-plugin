@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+
+  <product>
+    <sku>var1</sku>
+    <product_type>variable</product_type>
+    <!-- for variable, grouped: prices becomes NULL -->
+    <name>var1 Custom</name>
+    <visibility>visible</visibility>
+    <!-- visible,catalog,search,hidden -->
+    <!--<price>5.00</price>-->
+    <regular_price>11.00</regular_price>
+    <sale_price>11.00</sale_price>
+    <manage_stock>0</manage_stock>
+    <stock>0</stock>
+    <stock_status>instock</stock_status>
+    <!-- instock, outofstock -->
+    <description><![CDATA[ var 1 description]]></description>
+    <short_description><![CDATA[var 1 short desc]]></short_description>
+    <tags>abc,edf,xyz</tags>
+    <attributes>
+      <attribute>
+        <code>color</code>
+        <is_variation>1</is_variation>
+        <value>Red|Green|Blue|Black</value>
+      </attribute>
+      <attribute>
+        <code>size</code>
+        <is_variation>1</is_variation>
+        <value>Big|Medium|Small</value>
+      </attribute>
+      <!-- SELECT type attribute values  -->
+      <attribute>
+        <code>taxoattr1</code>
+        <value>Hop|Techno|Folk</value>
+      </attribute>
+    </attributes>
+    <variants>
+      
+      <variant>
+        <option attribute="color" value="red"></option>
+        <option attribute="size" value="big"></option>
+        <sku>var1_1</sku>
+        <regular_price>11.55</regular_price>
+        <stock>1</stock>
+        <stock_qty>1</stock_qty>
+        <manage_stock>1</manage_stock>
+        <length>11</length>
+        <width>12</width>
+        <height>13</height>
+      </variant>
+
+      <variant>
+        <option attribute="color" value="blue"></option>
+        <option attribute="size" value="big"></option>
+        <sku>var1_2</sku>
+        <regular_price>11.66</regular_price>
+        <stock>2</stock>
+        <stock_qty>2</stock_qty>
+        <manage_stock>1</manage_stock>
+        <length>14</length>
+        <width>15</width>
+        <height>16</height>
+      </variant>
+      <variant>
+        <option attribute="color" value="red"></option>
+        <option attribute="size" value="medium"></option>
+        <sku>var1_3</sku>
+        <regular_price>11.77</regular_price>
+        <stock>3</stock>
+        <stock_qty>3</stock_qty>
+        <manage_stock>1</manage_stock>
+        <length>17</length>
+        <width>18</width>
+        <height>19</height>
+      </variant>
+      <variant>
+        <option attribute="color" value="blue"></option>
+        <option attribute="size" value="medium"></option>
+        <sku>var1_4</sku>
+        <regular_price>11.88</regular_price>
+        <stock>4</stock>
+        <stock_qty>4</stock_qty>
+        <manage_stock>1</manage_stock>
+      </variant>
+    </variants>
+    <categories>
+      <categoryid>7</categoryid>
+      <categoryid>8</categoryid>
+    </categories>
+  </product>
+
+
+
+</products>

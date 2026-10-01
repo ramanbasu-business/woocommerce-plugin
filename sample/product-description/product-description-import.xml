@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="descriptions">
+  <product>
+    <sku>TEST001M</sku>
+    <description><![CDATA[TEST001M a dasdasda dasdaslong description]]></description>
+    <short_description><![CDATA[TEST001M asd asd asdasd asdshort desc]]></short_description>
+  </product>
+</products>

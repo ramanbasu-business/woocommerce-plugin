@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<orders module="shipping">
+
+<order>
+	<orderid>43</orderid>
+	<!--<post_id>507</post_id>-->
+	<carrier_code></carrier_code>
+	<tracking_number>t-42</tracking_number>
+	<shipment_date>2021-08-08</shipment_date>
+	<new_order_status>completed</new_order_status>
+	<status_note>SC: Order is complete after tracking update</status_note>
+	<unconditional_update>0</unconditional_update>
+</order>
+
+</orders>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+    <product>
+	<sku>WOO-500-simple</sku>
+	<product_type>simple</product_type><!-- for variable, grouped: prices becomes NULL -->
+	<name>WOO-500-simple Test Product</name>
+	<visibility>visible</visibility><!-- visible,catalog,search,hidden -->
+    <!--<brand>Alesis</brand>-->
+        <!--<price>5.00</price>-->
+    <mpn><![CDATA[WOO-500-simple]]></mpn>
+	<upc><![CDATA[9999999999]]></upc>
+	<ean><![CDATA[0000000000]]></ean>
+
+	<regular_price>55.00</regular_price>
+	<sale_price>44.00</sale_price>
+	<sale_price_dates_from>2019-01-01</sale_price_dates_from>
+	<sale_price_dates_to>2020-01-31</sale_price_dates_to>
+	
+	<featured>0</featured>
+	<downloadable>0</downloadable>
+	<virtual>0</virtual>
+	<tax_status>taxable</tax_status> <!-- taxable , shipping , none  -->
+	<tax_class>zero-rate</tax_class> <!-- '', reduced-rate, zero-rate -->
+	<weight>32.16</weight>
+	<length>5</length>
+	<width>5</width>
+	<height>5</height>
+	<purchase_note>Some purchase_note</purchase_note>
+	
+	<backorders>yes</backorders>
+	<manage_stock>1</manage_stock>
+	<stock>99</stock>
+	<stock_status>instock</stock_status><!-- instock, outofstock -->
+	<thumbnail></thumbnail>
+	<description><![CDATA[WOO-500-simple Full description]]></description>
+	<short_description><![CDATA[WOO-500-simple short desc]]></short_description>
+	<sold_individually>1</sold_individually>	
+	<shipping_class_id>0</shipping_class_id>
+	
+	<categories>
+	    <categoryid>91</categoryid>
+	    <categoryid>92</categoryid>
+	</categories>
+
+	<images>
+	    <image type="featured">https://9to5mac.com/wp-content/uploads/sites/6/2019/06/Notebook7Force_2.jpg</image>
+	    <image>https://cdn11.bigcommerce.com/s-xt5en0q8kf/images/stencil/1280x1280/products/3900/10889/MBP-15R-MAV-2__24053__22333.1535560856.jpg</image>
+	    <image>https://i2.wp.com/9to5mac.com/wp-content/uploads/sites/6/2019/06/MacBook-Pro-clones.jpg</image>
+	    
+	</images>
+	
+	<tags><![CDATA[male, pants, t-shirts, dresses]]></tags>
+
+	
+
+	<attributes>
+      
+      <attribute>
+        <code>custom-attribute-1</code>
+        <label>Custom Attribute 1</label>
+        <is_variation>0</is_variation>
+        <value>Option 1 | Option 2</value>
+      </attribute>
+      
+      <attribute>
+        <code>custom-attribute-text-2</code>
+        <label>custom-attribute-text-2</label>
+        <is_variation>0</is_variation>
+        <value>This is a long text for custom-attribute-text-2</value>
+      </attribute>
+
+      <attribute>
+        <code>figurine-color</code>
+        <label>Figurine Color</label>
+        <is_variation>1</is_variation>
+        <value>Black and Tan|Bronze|Tan</value>
+      </attribute>
+      <attribute>
+        <code>pose</code>
+        <label>Pose</label>
+        <is_variation>1</is_variation>
+        <value>Sitting</value>
+      </attribute>
+
+    </attributes>
+
+    
+    <variants>
+      <variant>
+        <option attribute="figurine-color" value="Black and Tan"></option>
+        <option attribute="pose" value="Sitting"></option>
+        <sku><![CDATA[Black-And-Tan-Sitting]]></sku>
+        <regular_price>34.99</regular_price>
+        <stock_qty>10</stock_qty>
+      </variant>
+      <variant>
+        <option attribute="figurine-color" value="Bronze"></option>
+        <option attribute="pose" value="Sitting"></option>
+        <sku><![CDATA[Bronze-Sitting]]></sku>
+        <regular_price>35.99</regular_price>
+        <stock_qty>20</stock_qty>
+      </variant>
+      <variant>
+        <option attribute="figurine-color" value="Tan"></option>
+        <option attribute="pose" value="Sitting"></option>
+        <sku><![CDATA[Tan-Sitting]]></sku>
+        <regular_price>36.99</regular_price>
+        <stock_qty>30</stock_qty>
+      </variant>
+    </variants>
+
+
+
+    </product>
+</products>

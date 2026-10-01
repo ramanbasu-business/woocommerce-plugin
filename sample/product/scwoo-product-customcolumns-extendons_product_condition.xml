@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+  <product>
+    <sku><![CDATA[TEST001M]]></sku>
+    <name><![CDATA[Test001 product]]></name>
+    <mpn><![CDATA[]]></mpn>
+    <upc><![CDATA[]]></upc>
+    <ean><![CDATA[]]></ean>
+    <short_description><![CDATA[]]></short_description>
+    <description><![CDATA[]]></description>
+    <product_type><![CDATA[simple]]></product_type>
+    <visibility><![CDATA[visible]]></visibility>
+    <regular_price>100.00</regular_price>
+    <sale_price>99</sale_price>
+    <sale_price_dates_from>2017-06-06</sale_price_dates_from>
+    <sale_price_dates_to>2017-10-06</sale_price_dates_to>
+    <msrp_price>101.99</msrp_price>
+    <featured>0</featured>
+    <downloadable>0</downloadable>
+    <virtual>0</virtual>
+    <tax_class><![CDATA[]]></tax_class>
+    <width>0</width>
+    <length>0</length>
+    <height>0</height>
+    <weight>0</weight>
+    <purchase_note><![CDATA[]]></purchase_note>
+    <backorders>0</backorders>
+    <tags><![CDATA[]]></tags>
+    <shipping_class_id>0</shipping_class_id>
+    <categories>
+    </categories>
+    <images>
+    </images>
+    <attributes>
+    </attributes>
+    <manage_stock>1</manage_stock>
+    <stock>95</stock>
+    <stock_status>instock</stock_status>
+    <sold_individually>0</sold_individually>
+    <tabs>
+    </tabs>
+    <custom_columns>
+
+      <custom_column>
+        <plugin>extendons_product_condition</plugin>
+        <target_field>extendons_pc_enable_product_condition</target_field>
+        <value><![CDATA[yes]]></value>
+      </custom_column>
+
+      <custom_column>
+        <plugin>extendons_product_condition</plugin>
+        <target_field>extendons_pc_type</target_field>
+        <value><![CDATA[Refurbished_Condition]]></value>
+      </custom_column>
+
+      <custom_column>
+        <plugin>extendons_product_condition</plugin>
+        <target_field>extendons_pc_product_condition</target_field>
+        <value><![CDATA[Manufacturer_Refurbished]]></value>
+      </custom_column>
+
+    </custom_columns>
+  </product>
+
+
+</products>

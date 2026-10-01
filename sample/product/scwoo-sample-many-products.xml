@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products module="">
+    <product>
+	<sku>var1</sku>
+	<product_type>variable</product_type><!-- for variable, grouped: prices becomes NULL -->
+	<name>var1 Custom</name>
+	<visibility>visible</visibility><!-- visible,catalog,search,hidden -->
+	<!--<price>5.00</price>-->
+	<regular_price>11.00</regular_price>
+	<sale_price>11.00</sale_price>
+	<manage_stock>1</manage_stock>
+	<stock>100</stock>
+	<stock_status>instock</stock_status><!-- instock, outofstock -->
+	<description><![CDATA[ var 1 description]]></description>
+	<short_description><![CDATA[var 1 short desc]]></short_description>
+	
+	<attributes>
+	    <attribute>
+		<code>color</code>
+		<is_variation>1</is_variation>
+		<value>Red|Green|Blue|Black</value>
+	    </attribute>
+	    <attribute>
+		<code>size</code>
+		<is_variation>1</is_variation>
+		<value>Big|Medium|Small</value>
+	    </attribute>
+	    <!-- SELECT type attribute values  -->
+	    <attribute>
+		<code>taxoattr1</code>
+		<value>Hop|Techno|Folk</value> 
+	    </attribute>
+	</attributes>
+	<variants>
+	    <variant>
+		<option attribute="color" value="red"></option>
+		<option attribute="size" value="big"></option>
+		<sku>var1_1</sku>
+		<regular_price>11.55</regular_price>
+		<stock>91</stock>
+	    </variant>
+	    <variant>
+		<option attribute="color" value="blue"></option>
+		<option attribute="size" value="big"></option>
+		<sku>var1_2</sku>
+		<regular_price>11.66</regular_price>
+		<stock>92</stock>
+	    </variant>
+	    <variant>
+		<option attribute="color" value="red"></option>
+		<option attribute="size" value="medium"></option>
+		<sku>var1_3</sku>
+		<regular_price>11.77</regular_price>
+		<stock>92</stock>
+	    </variant>
+	    <variant>
+		<option attribute="color" value="blue"></option>
+		<option attribute="size" value="medium"></option>
+		<sku>var1_4</sku>
+		<regular_price>11.88</regular_price>
+		<stock>92</stock>
+	    </variant>
+	</variants>	  
+	<categories>
+	    <categoryid>14</categoryid>
+	    <categoryid>13</categoryid>
+	    <categoryid>17</categoryid>
+	</categories>
+    </product>
+    
+     <product>
+	<sku>var2</sku>
+	<product_type>variable</product_type><!-- for variable, grouped: prices becomes NULL -->
+	<name>var2 Custom</name>
+	<visibility>visible</visibility><!-- visible,catalog,search,hidden -->
+	<!--<price>5.00</price>-->
+	<regular_price>22.00</regular_price>
+	<manage_stock>1</manage_stock>
+	<stock>200</stock>
+	<stock_status>instock</stock_status><!-- instock, outofstock -->
+	<description><![CDATA[ var 2 description]]></description>
+	<short_description><![CDATA[var 2 short desc]]></short_description>
+	
+	<attributes>
+	    <attribute>
+		<code>color</code>
+		<is_variation>1</is_variation>
+		<value>Red</value>
+	    </attribute>
+	    <attribute>
+		<code>size</code>
+		<is_variation>1</is_variation>
+		<value>XXL|XL|X</value>
+	    </attribute>
+	    
+	</attributes>
+	<variants>
+	    <variant>
+		<option attribute="color" value="red"></option>
+		<option attribute="size" value="x"></option>
+		<sku>var2_red_x</sku>
+		<regular_price>22.55</regular_price>
+		<stock>99</stock>
+	    </variant>
+	    <variant>
+		<option attribute="color" value="red"></option>
+		<option attribute="size" value="xl"></option>
+		<sku>var2_red_xl</sku>
+		<regular_price>22.65</regular_price>
+		<stock>99</stock>
+	    </variant>
+	    <variant>
+		<option attribute="color" value="red"></option>
+		<option attribute="size" value="xxl"></option>
+		<sku>var2_red_xxl</sku>
+		<regular_price>22.75</regular_price>
+		<stock>99</stock>
+	    </variant>
+	    
+	</variants>	  
+	<categories>
+	    <categoryid>14</categoryid>
+	    <categoryid>13</categoryid>
+	    <categoryid>17</categoryid>
+	</categories>
+    </product>
+    
+    <product>
+	<sku>test5</sku>
+	<product_type>simple</product_type><!-- for variable, grouped: prices becomes NULL -->
+	<name>test5 Custom</name>
+	<visibility>visible</visibility><!-- visible,catalog,search,hidden -->
+	<!--<price>5.00</price>-->
+	<regular_price>50.00</regular_price>
+	<sale_price>40.00</sale_price>
+	<sale_price_dates_from>2014-01-01</sale_price_dates_from>
+	<sale_price_dates_to>2014-01-31</sale_price_dates_to>
+	
+	<featured>0</featured>
+	<downloadable>0</downloadable>
+	<virtual>0</virtual>
+	<tax_status>taxable</tax_status> <!-- taxable , shipping , none  -->
+	<tax_class>zero-rate</tax_class> <!-- '', reduced-rate, zero-rate -->
+	<weight>5</weight>
+	<length>5</length>
+	<width>5</width>
+	<height>5</height>
+	<purchase_note>Some purchase_note</purchase_note>
+	
+	<backorders>1</backorders>
+	<manage_stock>1</manage_stock>
+	<stock>100</stock>
+	<stock_status>instock</stock_status><!-- instock, outofstock -->
+	<thumbnail></thumbnail>
+	<description><![CDATA[Full description]]></description>
+	<short_description><![CDATA[short desc]]></short_description>
+	<sold_individually>1</sold_individually>	
+	<shipping_class_id>0</shipping_class_id>
+	
+	<images>
+	    <!--<image type="featured">http://3.bp.blogspot.com/_NeTpqH7IRW8/TS3OEaOPQ3I/AAAAAAAACj0/ZrnvvGvnEv8/s640/greylabel1.jpg</image>
+	    <image>http://eastekinternational.com/assets/images/callout-consumer-dog.jpg</image>
+	    <image>http://www.dhresource.com/albu_301836368_00-1.0x0/new-products-2013-men-fashion-wrap-watch.jpg</image>
+	    -->
+	</images>
+	
+	<attributes>
+	    <attribute>
+		<code>taxoattr2</code>
+		<value>500.00</value>
+	    </attribute>
+	    <!-- SELECT type attribute values  -->
+	    <attribute>
+		<code>taxoattr1</code>
+		<value>Hop|Techno|Folk</value> 
+	    </attribute>
+	</attributes>
+	<categories>
+	    <categoryid>14</categoryid>
+	    <categoryid>13</categoryid>
+	    <categoryid>17</categoryid>
+	</categories>
+    </product>
+    
+</products>

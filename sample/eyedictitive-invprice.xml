@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<products module="invprice">
+	<product>
+	<sku><![CDATA[N6188S-326]]></sku>
+	<parent_sku><![CDATA[N6188S]]></parent_sku>
+	<qty>45</qty>
+	</product>
+
+	<product>
+	<sku><![CDATA[LMP1-Red-Big]]></sku>
+	<parent_sku><![CDATA[LMP1]]></parent_sku>
+	<qty>45</qty>
+	</product>
+
+</products>
