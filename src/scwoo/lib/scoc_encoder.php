@@ -23,6 +23,23 @@ class scoc_encoder
         endif;
     }
 
+    private function isSecureRequest()
+    {
+        if (is_ssl()) {
+            return true;
+        }
+
+        if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
+            return true;
+        }
+
+        if (!empty($_SERVER['SERVER_PORT']) && (int) $_SERVER['SERVER_PORT'] === 443) {
+            return true;
+        }
+
+        return false;
+    }
+
     public function authenticate($enabled = true, $encryption = false)
     {
         global $wp_version, $woocommerce;
@@ -31,11 +48,11 @@ class scoc_encoder
 
         if ($this->verbose == 1) :
             echo ("-------------- INITIAL QUERY STRING BEFORE PARSING -----------\n\r");
-            var_dump($q);
+            echo "Query string is present and redacted for safety\n\r";
         endif;
-        
+
         parse_str($q, $qryStrArray);
-        
+
         $qryStrArray["is_authenticated"] = 0;
         $qryStrArray["message"] = "";
 
@@ -47,11 +64,11 @@ class scoc_encoder
             $apacheHeaders = array();
         }
 
-        
+
         if ($this->verbose == 1) :
             echo ("-------------- INITIAL ARRAY AFTER PARSING -----------\n\r");
-            var_dump($qryStrArray);
-            
+            echo "Request values received: redacted for safety\n\r";
+
             //echo ("-------------- APACHE HEADERS -----------\n\r");
             //var_dump($apacheHeaders);
             //echo ("-------------- _SERVER -----------\n\r");
@@ -73,8 +90,8 @@ class scoc_encoder
             $this->_encryptionKey = $apacheHeaders['Origin'];
         }
 
-        if($this->verbose==1) echo "<br>\r\nHTTP_ORIGIN " . $this->_encryptionKey;
-        
+        if($this->verbose==1) echo "<br>\r\nHTTP_ORIGIN present\r\n";
+
         // Retrieve http header "origin"
         $this->_authorizationHeader = "";
         if(isset($_SERVER['HTTP_AUTHORIZATION']) && $_SERVER['HTTP_AUTHORIZATION'] != "")
@@ -90,7 +107,7 @@ class scoc_encoder
             $this->_authorizationHeader = $apacheHeaders['Authorization'];
         }
 
-        if($this->verbose==1) echo "<br>\r\nHTTP_AUTHORIZATION " . $this->_authorizationHeader;
+        if($this->verbose==1) echo "<br>\r\nHTTP_AUTHORIZATION present\r\n";
 
         if ($this->verbose == 1) :
             echo ("-------------- AFTER RECEIVING HTTP HEADERS -----------\n\r");
@@ -98,26 +115,36 @@ class scoc_encoder
 
         if (isset($qryStrArray["sctoken"])) :
             $finalArray = $this->validateByScToken($qryStrArray);
-        
+
         elseif (!empty($this->_authorizationHeader) && !empty($this->_encryptionKey)) :
-            
+
             $finalArray = $this->validateByHeader($qryStrArray);
         else:
-            $finalArray = $this->validateByQuery($qryStrArray);
+            if (!empty($qryStrArray["consumer_key"]) || !empty($qryStrArray["consumer_secret"])) {
+                if (!$this->isSecureRequest()) {
+                    $qryStrArray["is_authenticated"] = 0;
+                    $qryStrArray["message"] = 'Insecure request: consumer keys must not be sent over plain HTTP.';
+                    $finalArray = $qryStrArray;
+                } else {
+                    $finalArray = $this->validateByQuery($qryStrArray);
+                }
+            } else {
+                $finalArray = $this->validateByQuery($qryStrArray);
+            }
         endif;
 
-        
+
         if ($this->verbose == 1) :
             echo ("-------------- FINAL ARRAY -----------\n\r");
-            var_dump($finalArray);
+            echo "Authentication result: redacted for safety\n\r";
         endif;
-        
+
         if ($finalArray["is_authenticated"] == 0):
             $scoc_lib = new scoc_lib();
             $msg = "<response>"
                     . $scoc_lib->getVersionXml()
                     . "<status>failure</status><message>%s</message></response>";
-            
+
             echo sprintf($msg, $finalArray['message']);
             return null;
         else:
@@ -132,7 +159,7 @@ class scoc_encoder
         }
 
         if($this->verbose ==1 ) echo "\r\nAuth by ScToken";
-              
+
         // Decrypt the token
         $scToken = trim((string) $qryStrArray["sctoken"]);
         $scToken = str_replace(" ", "+", $scToken);
@@ -140,7 +167,7 @@ class scoc_encoder
         $scTokenDec = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $scTokenDec);
 
         if ($this->verbose == 1) :
-            echo "scToken after decryption = " . $scTokenDec . "\r\n";
+            echo "scToken decrypted successfully\r\n";
         endif;
 
         // Split the token by ||||
@@ -181,7 +208,7 @@ class scoc_encoder
         }
 
         if($this->verbose ==1 ) echo "\r\nAuth by Header";
-                
+
 
         $qryStrArray = array_map(
             function ($val) {
@@ -194,19 +221,18 @@ class scoc_encoder
 
         $this->_authorizationHeader = str_replace("BASIC ", "", $this->_authorizationHeader);
         $arrAuthValues = explode(":", $this->_authorizationHeader);
-        
+
         if(is_array($arrAuthValues) && count($arrAuthValues) == 2) {
             $enc_user = $arrAuthValues[0];
             $enc_password = $arrAuthValues[1];
-            
+
             $consumer_key = $this->aes->Decrypt($enc_user, $this->_encryptionKey);
             $consumer_secret = $this->aes->Decrypt($enc_password, $this->_encryptionKey);
-        
+
             $consumer_key = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', trim($consumer_key));
             $consumer_secret = preg_replace('/[\x00-\x1F\x80-\xFF]/', '', trim($consumer_secret));
-            
-            if($this->verbose==1) echo "<br>\r\n User " . $consumer_key;
-            if($this->verbose==1) echo "<br>\r\n Pwd " . $consumer_secret;
+
+            if($this->verbose==1) echo "<br>\r\n User credentials decoded successfully\r\n";
         }
         else
         {
@@ -215,15 +241,15 @@ class scoc_encoder
 
             return $qryStrArray;
         }
-        
-               
+
+
         // finally consumer_key and secret are received.
         // Stop if don't have any key.
         if ( ! $consumer_key || ! $consumer_secret ) {
             $qryStrArray["message"] = 'Invalid header keys in request';
             return $qryStrArray;
         }
-        
+
         $result = $this->validate_keys($consumer_key, $consumer_secret);
 
         if($result == true):
@@ -242,7 +268,15 @@ class scoc_encoder
             global $$key;
         }
 
-        if($this->verbose ==1 ) echo "\r\nAuth by query string";
+        if($this->verbose ==1 ) echo "\r\nAuth by query string (redacted)";
+
+        if (!empty($qryStrArray["consumer_key"]) || !empty($qryStrArray["consumer_secret"])) {
+            if (!$this->isSecureRequest()) {
+                $qryStrArray["is_authenticated"] = 0;
+                $qryStrArray["message"] = 'Insecure request: consumer keys must not be passed in the query string over HTTP.';
+                return $qryStrArray;
+            }
+        }
 
         $qryStrArray = array_map(function ($val) {
                 return urldecode($val);
@@ -255,7 +289,7 @@ class scoc_encoder
         $consumer_secret = "";
 
         if ( ! empty( $_GET['consumer_key'] ) && ! empty( $_GET['consumer_secret'] ) ):
-            
+
             $consumer_key    = $_GET['consumer_key']; // WPCS: CSRF ok, sanitization ok.
             $consumer_secret = $_GET['consumer_secret']; // WPCS: CSRF ok, sanitization ok.
 
@@ -278,15 +312,15 @@ class scoc_encoder
         if (!isset($qryStrArray["u"]) || !isset($qryStrArray["p"])):
             $qryStrArray["is_authenticated"] = 0;
             $qryStrArray["message"] = 'Query: Missing Parameters';
-            
+
             return $qryStrArray;
         endif;
 
         $adminUsername = trim((string) $qryStrArray["u"]);
         $adminPassword = trim((string) $qryStrArray["p"]);
 
-        
-        
+
+
 
         try {
             $result = $this->dbLogin($adminUsername, $adminPassword);
@@ -294,7 +328,7 @@ class scoc_encoder
         } catch (Exception $ex) {
             $qryStrArray["is_authenticated"] = 0;
             $qryStrArray["message"] = "Query: Exception: " . $ex->getMessage();
-            
+
             return $qryStrArray;
         }
 
@@ -305,11 +339,11 @@ class scoc_encoder
             $qryStrArray["message"] = 'Query: Authentication failed';
         endif;
         **/
-        
+
         return $qryStrArray;
     }
 
-        
+
     private function makeParamLower($qryStrArray)
     {
         return array_change_key_case($qryStrArray, CASE_LOWER);
@@ -331,8 +365,8 @@ class scoc_encoder
             echo ("-------------- dbLogin() get_user_by() -----------\n\r");
             //var_dump(get_user_by('login', $username));
         endif;
-        
-        
+
+
         // Normally username = admin
         $user = username_exists($username);
 
@@ -347,7 +381,7 @@ class scoc_encoder
 
         $user = wp_authenticate($username, $password);
         $message = "User does not belong to administrator, ceo or management role";
-        
+
         if (!is_wp_error($user)) {
             //return TRUE;
             if (in_array('administrator', (array) $user->roles)) {
@@ -383,7 +417,7 @@ class scoc_encoder
         // Get user data.
         $query = $wpdb->prepare(
             "SELECT key_id, user_id, permissions, consumer_key, consumer_secret, nonces
-            FROM {$wpdb->prefix}woocommerce_api_keys 
+            FROM {$wpdb->prefix}woocommerce_api_keys
             WHERE consumer_key = %s",
             wc_api_hash($consumer_key)
         );
@@ -393,13 +427,13 @@ class scoc_encoder
         if ( empty( $user ) ) {
             return false;
         }
-        
+
         // Validate user secret.
         if ( ! hash_equals( $user->consumer_secret, $consumer_secret ) ):
             return false;
         else:
             return true;
         endif;
-        
+
     }
 }
