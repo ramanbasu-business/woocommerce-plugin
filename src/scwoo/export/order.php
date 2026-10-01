@@ -634,8 +634,8 @@ class scoc_OrderExport extends scoc_BaseExport
     }
 }
 
-$sellercloud_order_export = new scoc_OrderExport();
-$sellercloud_order_export->getOrders();
-unset($sellercloud_order_export);
+$integration_order_export = new scoc_OrderExport();
+$integration_order_export->getOrders();
+unset($integration_order_export);
 
 exit;

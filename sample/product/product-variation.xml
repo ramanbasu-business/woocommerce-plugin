@@ -80,7 +80,7 @@
         <length>2</length>
         <height>2</height>
         <weight>2</weight>
-        <image type="matrix"><![CDATA[https://dh.cwa.sellercloud.com/images/products/1677440.png]]></image>
+        <image type="matrix"><![CDATA[https://dh.cwa.integration.com/images/products/1677440.png]]></image>
       </variant>
 
       <variant>
@@ -95,7 +95,7 @@
         <length>3</length>
         <height>3</height>
         <weight>3</weight>
-        <image type="matrix"><![CDATA[https://dh.cwa.sellercloud.com/images/products/1677440.png]]></image>
+        <image type="matrix"><![CDATA[https://dh.cwa.integration.com/images/products/1677440.png]]></image>
       </variant>
     </variants>
     <manage_stock>1</manage_stock>

@@ -9,7 +9,7 @@
 /**
  * Description of scoc_shipping
  *
- * @author Raman Basu <support@sellercloud.com>
+ * @author Raman Basu <support@integration.com>
  */
 class scoc_shipping
 {

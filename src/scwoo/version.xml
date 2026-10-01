@@ -4,7 +4,7 @@
     <number>1.2</number>
     <date>2015-04-20 09:35:15 </date>
     <description>
-      <![CDATA[1.0 =>	Initial version for sellercloud - woocommerce plugin
+      <![CDATA[1.0 =>	Initial version for integration - woocommerce plugin
 1.1 =>	Implemented shipping/tracking import
 1.2 =>     Fixed order item XML encoding]]>
     </description>

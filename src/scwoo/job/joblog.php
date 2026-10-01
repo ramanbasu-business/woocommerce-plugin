@@ -1,7 +1,7 @@
 <?php
 
 /*
- * SellerCloud SCME
+ * integration SCME
 
 NOTICE OF LICENSE
 
@@ -11,11 +11,11 @@ DISCLAIMER
 
 Do not edit or add to this file if you wish to upgrade to newer
 versions in the future. If you wish to customize this extension for your
-needs please refer to http://www.sellercloud.com for more information.
+needs please refer to http://www.integration.com for more information.
 
-@author      Raman Basu <support@sellercloud.com>
+@author      Raman Basu <support@integration.com>
 @package     Scme_Imports
-@copyright   Copyright (C) 2016 SellerCloud <support@sellercloud.com>
+@copyright   Copyright (C) 2016 integration <support@integration.com>
 @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 

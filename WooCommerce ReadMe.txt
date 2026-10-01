@@ -1,7 +1,7 @@
 WooCommerce Plugin
 ==================
 
-This repository contains a legacy WordPress/WooCommerce plugin for synchronising store data with an external SellerCloud-like integration layer.
+This repository contains a legacy WordPress/WooCommerce plugin for synchronising store data with an external integration-like integration layer.
 
 Security note
 -------------

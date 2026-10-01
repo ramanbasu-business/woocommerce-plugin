@@ -4,9 +4,9 @@ ob_start();
 /** Make sure that the WordPress bootstrap has run before continuing. */
 require('../include.php');
 
-getCategoriesForSellerCloud();
+getCategoriesForintegration();
 
-function getCategoriesForSellerCloud()
+function getCategoriesForintegration()
 {
     $scoc_lib = new scoc_lib();
     $scoc_utility = new scoc_utility();
